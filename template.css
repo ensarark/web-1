@@ -1,0 +1,182 @@
+*{
+    text-decoration: none;
+}
+.body{
+    background-size: 100% 100%;
+  /*  background: linear-gradient( 90deg, #a193d9, #7a6aa9,#56437c,#331f51,#140029);*/
+  background-color: #0f0f0f;
+    
+ 
+    
+
+}
+@media screen and (max-width: 1220px){
+    .fs-7{
+      font-size: 60px;
+      line-height: 40px;
+    }
+    .body-1,.body-2,.body-3{
+      background-size: 120% 120%;
+    }
+   }
+.header li{
+list-style: none;
+transition: 0.2s all;
+}
+.header ul:hover{
+    cursor: pointer;
+color: rgb(207, 205, 203);
+}
+.hd-cnt ul li{
+   padding-top: 18px;
+}
+.hd-btn{
+
+    border: transparent;
+    border-radius: 11px!important;
+}
+.hd-btn{
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .hd-btn:disabled {
+    pointer-events: none;
+   }
+   
+   .hd-btn:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .hd-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+.card-body{
+    height: 548px;
+} 
+.hg-250{
+    height: 250px;
+}
+.hg-200{
+    height: 190px;
+}
+.hg-50{
+    height: 50px;
+}
+.cardi {
+    background: linear-gradient( 135deg, #232323,#202020,#0f0f0f);
+    transition: all .5s ease-in-out;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: #8a8989;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .cardi:hover {
+    transform: translateY(-5px);
+    transition: all .5s ease-in-out;
+  }
+  .hg-100{
+    height: 1005;
+  }
+  .img1{
+    background-image: url(img/card-2.png);
+    background-size: 100% 100%;
+    height: 300px;
+  }
+  .img2{
+    background-image: url(img/card-1.png);
+    background-size: 120% 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 203px;
+  }
+  .img3{
+    background-image: url(img/card-3.png);
+    background-size: 120% 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 203px;
+  }
+  .img4{
+    background-image: url(img/,card-4.png);
+    background-size: 120% 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 203px;
+  }
+  .h{
+    height: 203px;
+  }
+  .card2{
+    background: linear-gradient( 135deg,#292929, #242323);
+   /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    cursor: pointer;
+    height: 170px;
+    border-radius: 20px;
+  
+  }
+  i{
+    cursor: pointer;
+  }
+  .ru{
+    border-radius: 30px;
+    background: linear-gradient( 135deg, #3b3939,#202020,#0f0f0f);
+  }
+  .ps{
+    position: relative;
+    bottom: 6px;
+  }
+  .u{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .rr{
+    background: linear-gradient( 135deg, #3b3939,#202020,#0f0f0f);
+    border-radius: 30px;
+  }
+ .daire{
+    border: 1px solid white;
+    background-color: #252424;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: transparent;
+    transition: 0.4s all;
+    color:white;
+
+ }
+ .daire:hover{
+    background-color: white;
+    color: black;
+ }
+  .card-1-img{
+    width: 220px;
+  }
+  .tt{
+    
+    line-height: 45px;
+  }
